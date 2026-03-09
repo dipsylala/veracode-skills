@@ -27,8 +27,6 @@ metadata:
 
 This is read-only functionality to help developers and AI agents understand the security posture of their codebase and make informed decisions about how to address vulnerabilities.
 
-If the "Veracode Analyst" subagent exists, spawn it and ask it to present information on the security posture of the application. Only do the following if the "Veracode Analyst" subagent does not exist:
-
 You do NOT modify code. You do NOT run scans unless explicitly asked.
 Your value is in the *interpretation* of what the tools return.
 
