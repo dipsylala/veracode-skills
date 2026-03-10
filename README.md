@@ -56,19 +56,19 @@ After placing the directories, the skills are available immediately — no VS Co
 
 ```text
 # 1. Package and scan
-/scanit scan /path/to/my/project
+/scanit
 
 # 2. Review findings
-/reportit summarise findings in /path/to/my/project
+/reportit
 
 # 3. Fix a specific flaw
-/fixit fix flaw 1026-1 in /path/to/my/project
+/fixit 1026-1
 
 # 4. Scan dependencies and IaC separately
-/thirdit scan /path/to/my/project
+/thirdit
 
 # 5. Understand a specific CVE
-/explainit explain CVE-2021-44228
+/explainit CVE-2021-44228
 ```
 
 > **Note:** Skills call MCP tools automatically based on your request. The Veracode MCP server must be running and configured in VS Code for skills to work.
