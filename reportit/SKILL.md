@@ -14,7 +14,6 @@ allowed-tools:
   - mcp_veracode_pipeline-status
   - mcp_veracode_pipeline-findings
   - mcp_veracode_finding-details
-  - mcp_veracode_remediation-guidance
   - mcp_veracode_local-sca-findings
   - mcp_veracode_local-iac-findings
 
