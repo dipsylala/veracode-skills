@@ -15,7 +15,6 @@ GitHub Copilot skills for Veracode security scanning workflows. Each skill is a 
 | **scanit** | `/scanit` | Packages the workspace and starts a pipeline SAST scan |
 | **thirdit** | `/thirdit` | Runs a local SCA scan on third-party dependencies and checks IaC configurations |
 | **reportit** | `/reportit` | Retrieves findings and produces a prioritised executive summary |
-| **explainit** | `/explainit` | Explains a specific flaw or CVE in plain language |
 
 ## Installation
 
@@ -62,9 +61,6 @@ After placing the directories, the skills are available immediately — no VS Co
 
 # 3. Scan dependencies and IaC separately
 /thirdit
-
-# 4. Understand a specific CVE
-/explainit CVE-2021-44228
 ```
 
 > **Note:** Skills call MCP tools automatically based on your request. The Veracode MCP server must be running and configured in VS Code for skills to work.
